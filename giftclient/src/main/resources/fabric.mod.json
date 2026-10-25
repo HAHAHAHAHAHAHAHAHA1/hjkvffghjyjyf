@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "giftclient",
+  "version": "${version}",
+  "name": "GiftClient",
+  "description": "Client-side utility mod for my own server.",
+  "authors": ["wleo"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.gift.client.GiftClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
